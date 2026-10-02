@@ -1,0 +1,293 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #222222;
+}
+
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 30px;
+}
+
+header p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+
+main {
+    width: 85%;
+    max-width: 1200px;
+    min-height: 400px;
+
+    margin: 40px auto;
+    padding: 35px;
+
+    box-sizing: border-box;
+
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+
+
+h2 {
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 25px;
+
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+}
+
+
+
+
+.menu {
+    width: 500px;
+    max-width: 100%;
+
+    margin: 30px auto;
+
+    text-align: center;
+}
+
+
+
+
+.botao {
+    display: block;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 14px;
+    margin: 15px 0;
+
+    background-color: #eeeeee;
+    border: 1px solid #999999;
+
+    color: #222222;
+
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 16px;
+}
+
+.botao:hover {
+    background-color: #dddddd;
+}
+
+.botao.sair {
+    background-color: #eeeeee;
+}
+
+.botao.sair:hover {
+    background-color: #dddddd;
+}
+
+
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 9px;
+
+    border: 1px solid #999999;
+
+    background-color: #ffffff;
+}
+
+textarea {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 9px;
+
+    border: 1px solid #999999;
+
+    resize: vertical;
+}
+
+
+
+
+button {
+    padding: 10px 16px;
+
+    margin-top: 10px;
+
+    background-color: #eeeeee;
+
+    border: 1px solid #888888;
+
+    color: #222222;
+
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #dddddd;
+}
+
+
+
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+
+    background-color: #ffffff;
+}
+
+th,
+td {
+    border: 1px solid #bbbbbb;
+
+    padding: 9px;
+
+    text-align: left;
+}
+
+th {
+    background-color: #eeeeee;
+
+    font-weight: bold;
+}
+
+
+
+a {
+    color: #222222;
+}
+
+a:hover {
+    color: #000000;
+}
+
+
+
+
+.sucesso {
+    background-color: #eeeeee;
+
+    border: 1px solid #999999;
+
+    padding: 10px;
+
+    margin-bottom: 15px;
+}
+
+
+
+.erro {
+    background-color: #eeeeee;
+
+    border: 1px solid #777777;
+
+    padding: 10px;
+
+    margin-bottom: 15px;
+}
+
+
+
+.alerta {
+    background-color: #eeeeee;
+
+    border: 1px solid #999999;
+
+    padding: 10px;
+
+    margin-bottom: 15px;
+}
+
+
+
+
+hr {
+    border: 0;
+
+    border-top: 1px solid #cccccc;
+
+    margin: 30px 0;
+}
+
+
+
+
+nav {
+    margin-bottom: 20px;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 700px) {
+
+    main {
+        width: 95%;
+
+        padding: 20px;
+
+        margin: 20px auto;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+    }
+}
+
+.mensagem-inicial {
+    text-align: center;
+    font-size: 17px;
+    margin: 0 0 30px 0;
+}
